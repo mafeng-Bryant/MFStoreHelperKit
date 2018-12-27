@@ -23,15 +23,11 @@ static NSString * const kEverClickMembership               = @"com.interfocusllc
 /**
  *  存储到NSUserDefaults
  *
- *  @param value,key
- *
  */
 + (void)storeValue:(id)value forKey:(NSString *)key;
 
 /**
  *  根据key从NSUserDefaults获取值
- *
- *  @param key
  *
  */
 + (id)getValueForKey:(NSString *)key;
@@ -39,16 +35,12 @@ static NSString * const kEverClickMembership               = @"com.interfocusllc
 /**
  *  存储到系统的钥匙串
  *
- *  @param value,key
- *
  */
 +(void)systemStoreValue:(NSString *)value
                  forKey:(NSString *)key;
 
 /**
  *  根据key从系统的钥匙串获取值
- *
- *  @param key
  *
  */
 + (id)getSystemValueForKey:(NSString *)key;

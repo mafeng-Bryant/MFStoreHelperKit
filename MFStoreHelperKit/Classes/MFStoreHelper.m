@@ -13,8 +13,6 @@ static NSString * const kServiceDomain                     = @"com.interfocusllc
 
 @implementation MFStoreHelper
 
-#pragma mark 加密存储数据到NSUserDefaults
-
 +(void)storeValue:(id)value forKey:(NSString *)key
 {
     key = [[[NSBundle mainBundle] bundleIdentifier] stringByAppendingFormat:@".%@",key];
