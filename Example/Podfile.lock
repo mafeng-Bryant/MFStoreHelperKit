@@ -1,16 +1,23 @@
 PODS:
-  - MFStoreHelperKit (0.1.0)
+  - MFStoreHelperKit (1.0.0):
+    - SFHFKeychainUtils (~> 1.0.0)
+  - SFHFKeychainUtils (1.0.0)
 
 DEPENDENCIES:
   - MFStoreHelperKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SFHFKeychainUtils
 
 EXTERNAL SOURCES:
   MFStoreHelperKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MFStoreHelperKit: 84d9836e6cf159a604ef2c44d56b645072aaad28
+  MFStoreHelperKit: 844b1bf10b2ffa451c8d30b89981a370e521e428
+  SFHFKeychainUtils: a4e064aedb7a5ada3d5219152d45f53cebc16507
 
-PODFILE CHECKSUM: 3a7a1e638ace732b5da4ab916ef522465f6b7638
+PODFILE CHECKSUM: e3f01849ec11e6da37dba18530ef353f48817bf6
 
 COCOAPODS: 1.5.3

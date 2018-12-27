@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "MFStoreHelper.h"
+#import "SFHFKeychainUtils.h"
 
-FOUNDATION_EXPORT double MFStoreHelperKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char MFStoreHelperKitVersionString[];
+FOUNDATION_EXPORT double SFHFKeychainUtilsVersionNumber;
+FOUNDATION_EXPORT const unsigned char SFHFKeychainUtilsVersionString[];
 

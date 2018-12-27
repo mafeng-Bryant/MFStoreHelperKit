@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "MFStoreHelper.h"
-
-FOUNDATION_EXPORT double MFStoreHelperKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char MFStoreHelperKitVersionString[];
-
