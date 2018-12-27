@@ -1,0 +1,16 @@
+PODS:
+  - MFStoreHelperKit (0.1.0)
+
+DEPENDENCIES:
+  - MFStoreHelperKit (from `../`)
+
+EXTERNAL SOURCES:
+  MFStoreHelperKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MFStoreHelperKit: 84d9836e6cf159a604ef2c44d56b645072aaad28
+
+PODFILE CHECKSUM: 3a7a1e638ace732b5da4ab916ef522465f6b7638
+
+COCOAPODS: 1.5.3
