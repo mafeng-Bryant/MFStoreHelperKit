@@ -18,6 +18,7 @@ static NSString * const kAppsFlyerDeepLinkUrlKey           = @"com.interfocusllc
 static NSString * const kAppInstallSourceKey               = @"com.interfocusllc.patpat.kAppInstallSourceKey";//app安装的来源
 static NSString * const kEverClickMembership               = @"com.interfocusllc.patpat.everClickMembership";//是否点击过account界面的会员中心入口
 
+
 @interface MFStoreHelper : NSObject
 
 /**

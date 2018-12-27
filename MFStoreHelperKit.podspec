@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MFStoreHelperKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of MFStoreHelperKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
